@@ -1,0 +1,143 @@
+/* .bg-img-1 {
+    background: url("./images/fly.jpg") center center/cover no-repeat;
+    display: flex;
+  }
+
+  .page-wrapper {
+    min-height: 100vh;
+  }
+  .search-bar{
+    display: block;
+    width: 87%;
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: #000;
+    background-color: rgba(0,0,0,.7);
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 12px 0 26px 3%;
+    height: 75px;
+    position: relative;
+	margin-top: 20%;
+  }
+
+  .search-header {
+    padding: 0 0 10px;
+}
+
+.search-header>label {
+    color: #fff;
+    margin-right: 11px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Circular Medium';
+    position: relative;
+    padding-left: 18px;
+}
+
+.search-header>label.active {
+    color: #ff9012!important;
+}
+ 
+.search-header>label.active .circle {
+    background-color: #ff9012;
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    border-radius: 50%;
+    left: 3px;
+    top: 7px;
+}
+
+.search-header>label input {
+    display: none;
+}
+
+.search-details {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    border-radius: 2px 0 0 2px;
+    -moz-border-radius: 2px 0 0 2px;
+    -webkit-border-radius: 2px 0 0 2px;
+    -o-border-radius: 2px 0 0 2px;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+.search-details>.search-arrow {
+    padding: 15px 3px 0 10px;
+    left: 16.9%;
+    top: 2px;
+    margin-left: -7px;
+}
+
+
+
+.search-details>input[type=text].txt-location {
+    width: 19.4%;
+    font-size: 16px;
+    text-align: left!important;
+    margin-bottom: 0;
+}
+
+.search-details input[type=text], .container>.trn-search>.trn-search-bar>.search-details>select {
+    height: 48px;
+    margin: 0;
+    float: left;
+    border: 1px solid #e0e0e0;
+    padding: 0 5px 0 13px;
+    cursor: pointer;
+    display: block;
+    border-right: none!important;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.search-details>.datepicker-wrapper {
+    position: relative;
+    float: left;
+}
+
+.search-details>.datepicker-wrapper>i {
+    position: absolute;
+    left: 9px;
+    top: 16px;
+    background-position: -160px -273px;
+    width: 16px;
+    height: 16px;
+}
+
+.search-details>.datepicker-wrapper>input[type=text].txt-date {
+    width: 165px;
+    font-size: 14px;
+    text-align: left!important;
+    padding-left: 32px;
+    margin-bottom: 0;
+}
+
+.mat-select-value-text {
+color:white !important;
+}
+
+.matSelectBox{
+    width: 19.4%;
+    font-size: 16px;
+    text-align: left!important;
+    margin-bottom: 0; margin-top: 15px;
+    background-color: #fff;
+    display: flex;
+}
+
+mat-form-field {
+    margin-right: 12px;
+  }
+
+
+
+   */

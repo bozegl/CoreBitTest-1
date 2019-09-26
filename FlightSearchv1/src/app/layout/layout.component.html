@@ -1,0 +1,83 @@
+<div  class="page-wrapper bg-img-1">
+        <form class="search-bar">
+            <!-- <div class="search-bar"> -->
+      
+                <div class="search-header">
+                  <input type="radio" class="form-control" id="lb-way" checked name="roundTrip">
+                  <label id="lb-way" class="active">Gidiş - Dönüş</label>
+  
+                  <input type="radio" class="form-control" name="roundTrip">
+                  <label id="lb-way" class="active">Tek Yön</label>
+               
+                  <div class="planeticket-hr"></div>
+  
+                  <div class="search-details">
+                      <div class="matSelectBox">
+                         
+                                  <mat-form-field style="background-color: white;
+                                  height: 50px;">
+                                          <mat-select placeholder="Kalkış Şehri seçiniz">
+                                                  <mat-option *ngFor="let item of kalkisSehri" [value]="item.Name">
+                                                          {{item.Name}}
+                                                        </mat-option>
+                                          </mat-select>
+                                        </mat-form-field>
+                        
+                                      <mat-form-field style="background-color: white;
+                                      height: 50px;">
+                                              <mat-select placeholder="Varış Şehri Seçiniz">
+                                                      <mat-option *ngFor="let item of varisSehri" [value]="item.Name">
+                                                              {{item.Name}}
+                                                            </mat-option>
+                                              </mat-select>
+                                            </mat-form-field>
+                                            <mat-form-field style="background-color: white;  height: 50px;"> 
+                                                  <input matInput [matDatepicker]="picker" placeholder="Tarih Seçiniz">
+                                                  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                                  <mat-datepicker #picker></mat-datepicker>
+                                                </mat-form-field>
+  
+                                                <mat-form-field style="background-color: white;  height: 50px;"> 
+                                                      <input matInput [matDatepicker]="picker2" placeholder="Tarih Seçiniz">
+                                                      <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                                                      <mat-datepicker #picker2></mat-datepicker>
+                                                    </mat-form-field>
+                                                                                           
+
+                                                        <mat-accordion id="temp">
+                                                            <mat-expansion-panel>
+                                                              <mat-expansion-panel-header>                                                           
+                                                                <mat-panel-description>
+                                                                  Yolcu Sayısı
+                                                                </mat-panel-description>
+                                                              </mat-expansion-panel-header>
+                                                          
+                                                              <mat-form-field style="width: 90px">
+                                                                <input matInput type="number" placeholder="yetişkin">
+                                                              </mat-form-field>
+                                                          
+                                                              <mat-form-field style="width: 90px">
+                                                                <input matInput  type="number" placeholder="öğrenci">
+                                                              </mat-form-field>
+                                                            </mat-expansion-panel>
+                                                          
+                                                          </mat-accordion>
+                                                       
+                                                   
+  
+                                                
+                                                    <button mat-fab color="warn" (click)="getData()">
+                                                          <mat-icon>search</mat-icon>
+                                                    </button>
+  
+                          
+                      </div>
+                     
+                      
+                  </div>
+            
+              </div>
+          </form>
+  
+       
+        </div>
